@@ -6,6 +6,7 @@ import Signup from "./pages/Signup";
 import UserProfile from "./pages/UserProfile";
 import SwapRequest from "./pages/SwapRequest";
 import Navbar from "./components/Navbar";
+import ProfileDetail from "./pages/ProfileDetail";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/signup" element={<Signup />} />
           <Route path="/profile" element={<UserProfile />} />
           <Route path="/swap-requests" element={<SwapRequest />} />
+          <Route path="/profile/:id" element={<ProfileDetail />} />
         </Routes>
       </div>
     </Router>
