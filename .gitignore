@@ -1,0 +1,31 @@
+# === GLOBAL ===
+.DS_Store
+*.log
+*.env
+.env.*
+*.sqlite3
+*.db
+
+# === BACKEND ===
+backend/__pycache__/
+backend/app/__pycache__/
+backend/odoo_venv/
+backend/skill_swap.db
+
+# === FRONTEND ===
+frontend/node_modules/
+frontend/.pnp/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+
+# === FRONTEND ENV FILES ===
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# VS Code
+.vscode/
